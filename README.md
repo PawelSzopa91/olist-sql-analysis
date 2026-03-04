@@ -37,3 +37,8 @@ Analysis of **15,540 customers** in the São Paulo metro area confirms it as the
 * **Engine**: PostgreSQL 15
 * **Interface**: DBeaver
 * **Techniques**: Window Functions, Complex Case Logic, Data Cleaning (`REPLACE`, `EXTRACT`)
+
+## 🚀 Quick Start
+1. Clone the repository.
+2. Import the Olist dataset into your SQL engine.
+3. Run `Analysis.sql` to generate the full business report.
