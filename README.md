@@ -27,10 +27,20 @@ The project operates on a relational model in **PostgreSQL**. Key entities inclu
 
 ## 🔍 Advanced Technical Deep-Dives
 
-### 🚛 1. Supply Chain Optimization (Root-Cause Analysis)
-Drawing on my background in monitoring **First Time Delivery** rates at DHL, I performed a cross-state lead-time audit.
-* **Technique**: Used `EXTRACT(DAY FROM ...)` and `CASE WHEN` to standardize 27 states.
-* **Insight**: Remote regions (RR, AP) exhibit a **250% increase** in lead times, indicating a need for regional distribution centers (RDC).
+### 🚛 1. Supply Chain & Logistics Optimization
+Leveraging my background in monitoring **First Time Delivery** rates at Deutsche Post DHL, I performed a comprehensive cross-state logistics audit on 100k+ orders to identify critical operational bottlenecks.
+
+* **Methodology & SQL Techniques**:
+    * Standardized raw logistics logs across 27 Brazilian states using `EXTRACT`, `CASE WHEN`, and timestamp arithmetic.
+    * Employed `JOIN` operations and `GROUP BY` clauses to calculate the precise delivery delay delta (Actual vs. Estimated delivery date).
+    * Optimized query performance for high-volume dataset manipulation.
+
+* **Operational Insights**:
+    * The analysis confirmed that remote regions (e.g., Roraima - RR, Amapá - AP) exhibit a **250% increase** in lead times compared to the São Paulo (SP) baseline.
+    * **Business Recommendation**: Results indicate a strategic necessity for last-mile optimization through the establishment of Regional Distribution Centers (RDC) in Northern Brazil.
+
+![Logistics SQL Workflow](logistics_sql_query.png)
+*Figure 1: SQL workflow in DBeaver – illustrating the process from raw data extraction and transformation to bottleneck identification.*
 
 ### 📈 2. Revenue Scaling & Trend Analysis
 Applying **Revenue Optimization** methods used during my business ownership:
@@ -63,6 +73,7 @@ To validate the strategic insights above, the following metrics were extracted a
 * **Engine**: PostgreSQL 15
 * **Interface**: DBeaver
 * **Techniques**: Window Functions, Complex Case Logic, Data Cleaning (`REPLACE`, `EXTRACT`)
+
 
 
 
