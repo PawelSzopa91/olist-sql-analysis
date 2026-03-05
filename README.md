@@ -42,15 +42,29 @@ Standardized raw, messy logistics logs into clean, structured SQL tables.
 
 ---
 
+
+## 📊 Analytics Visualizations & Findings
+To validate the strategic insights above, the following metrics were extracted and visualized:
+
+![Logistics Performance Summary](logistics_plot.png)
+*Insight: Significant variance in delivery times across states highlights critical bottlenecks in remote regions compared to the SP baseline.*
+
+![Payment Method Distribution](payments_plot.png)
+*Insight: Payment preference analysis confirms credit card dominance, directly impacting cash flow velocity.*
+
+![Revenue Trend Analysis](revenue_trend.png)
+*Insight: The 2017 monthly revenue trend corroborates high Black Friday elasticity, confirming the strategic revenue peak mentioned in the audit.*
+
+---
+
+
 ## 🛠️ Stack & Methodology
 * **Engine**: PostgreSQL 15
 * **Interface**: DBeaver
 * **Techniques**: Window Functions, Complex Case Logic, Data Cleaning (`REPLACE`, `EXTRACT`)
 
-## 🚀 Quick Start
-1. Clone the repository.
-2. Import the Olist dataset into your SQL engine.
-3. Run `Analysis.sql` to generate the full business report.
+
+
 
 
 
