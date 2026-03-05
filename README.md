@@ -1,4 +1,6 @@
-# 📊 Olist E-commerce Ecosystem: SQL Strategic Audit
+# 📊 Olist E-commerce Logistics & Revenue Audit
+**Executive Analysis by Pawel Szopa | Data Analyst & Logistics Operations Specialist**
+*Leveraging professional experience from Deutsche Post DHL and Boon Food Group to optimize e-commerce supply chains.*
 
 ## 📋 Business Intelligence Summary
 Analysis of the largest Brazilian e-commerce dataset (2016-2018). The project delivers a deep dive into logistics bottlenecks, revenue scaling, and customer geographic distribution.
@@ -42,3 +44,4 @@ Analysis of **15,540 customers** in the São Paulo metro area confirms it as the
 1. Clone the repository.
 2. Import the Olist dataset into your SQL engine.
 3. Run `Analysis.sql` to generate the full business report.
+
