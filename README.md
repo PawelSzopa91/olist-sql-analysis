@@ -15,6 +15,7 @@ Analysis of 100k+ records from the Brazilian market (2016-2018), focusing on **O
 ---
 
 ## 🏗️ Data Architecture & Schema
+![Diagram bazy danych](database_schema.png)
 The project operates on a relational model in **PostgreSQL**. Key entities include:
 * **Orders**: Central transaction hub.
 * **Customers**: Demographics across 27 Brazilian states.
@@ -50,5 +51,6 @@ Standardized raw, messy logistics logs into clean, structured SQL tables.
 1. Clone the repository.
 2. Import the Olist dataset into your SQL engine.
 3. Run `Analysis.sql` to generate the full business report.
+
 
 
