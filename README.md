@@ -16,6 +16,7 @@ Analysis of 100k+ records from the Brazilian market (2016-2018), focusing on **O
 
 ## 🏗️ Data Architecture & Schema
 ![Diagram bazy danych](database_schema.png)
+
 The project operates on a relational model in **PostgreSQL**. Key entities include:
 * **Orders**: Central transaction hub.
 * **Customers**: Demographics across 27 Brazilian states.
@@ -62,6 +63,7 @@ To validate the strategic insights above, the following metrics were extracted a
 * **Engine**: PostgreSQL 15
 * **Interface**: DBeaver
 * **Techniques**: Window Functions, Complex Case Logic, Data Cleaning (`REPLACE`, `EXTRACT`)
+
 
 
 
