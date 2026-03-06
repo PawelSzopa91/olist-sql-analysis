@@ -2,21 +2,26 @@
 
 An end-to-end data analysis project exploring 100k+ orders from the Brazilian e-commerce market (2016-2018). The primary goal of this analysis was to identify logistics bottlenecks and optimize revenue streams using SQL-based data processing.
 
-## 🔍 Key Objectives
-* **Logistics Performance**: Calculating delivery time variations to identify underperforming regions.
-* **Revenue Scaling**: Segmenting customer and order data to pinpoint high-value areas for business growth.
+## 🎯 Key Objectives
+* **Logistics Performance Audit**: Calculating the delivery gap (Estimated vs. Actual) to pinpoint regional bottlenecks and identify the causes of delays in high-risk areas.
+* **Customer Segmentation & Revenue Analysis**: Applying SQL logic to categorize customers based on purchase frequency and order value, highlighting key contributors to revenue.
+* **Payment & Installment Optimization**: Investigating the correlation between payment methods, installment counts, and final order value to uncover trends in high-ticket transactions.
+* **Operational Efficiency Drivers**: Performing a root cause analysis to determine the impact of delivery time and product category on customer satisfaction (Net Promoter Score/Reviews).
+* **Market Growth Strategy**: Providing actionable, data-backed insights to optimize supply chain routes and improve resource allocation in underperforming territories.
+
+---
 
 ## 🛠 Tech Stack & Methodology
-* **Database**: PostgreSQL
-* **Tooling**: DBeaver
-* **Techniques**: CTEs, complex JOINs, data normalization, and delivery performance metrics.
 
-| Strategic KPI | Value | Professional Insight |
-| :--- | :--- | :--- |
-| **Gross Revenue** | 15.4M BRL | High-growth scaling identified in late 2017. |
-| **Logistics Benchmark** | 8.3 Days | São Paulo (SP) serves as the efficiency baseline for the 3PL network. |
-| **Operational Risk** | 29.0 Days | Bottleneck identified in Roraima (RR); critical lead-time variance. |
-| **Customer Retention** | 99,441 | Significant market penetration requiring advanced segmentation. |
+### Core Technologies
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![DBeaver](https://img.shields.io/badge/DBeaver-382923?style=for-the-badge&logo=dbeaver&logoColor=white)
+
+### Analytical Toolkit
+* **Database Management**: Schema definition, data normalization, and integrity management within PostgreSQL.
+* **Advanced SQL**: Utilizing `CTEs` (Common Table Expressions), complex `JOIN` operations, and conditional `CASE` statements for logistics metric calculation.
+* **Data Transformation**: Converting raw timestamps and multi-table relationships into actionable performance metrics.
+* **Root Cause Analysis**: Identifying geographic and systemic delivery bottlenecks through granular data filtering.
 
 ---
 
@@ -79,6 +84,7 @@ To validate the strategic insights above, the following metrics were extracted a
 * **Engine**: PostgreSQL 15
 * **Interface**: DBeaver
 * **Techniques**: Window Functions, Complex Case Logic, Data Cleaning (`REPLACE`, `EXTRACT`)
+
 
 
 
