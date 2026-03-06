@@ -16,12 +16,15 @@ An end-to-end data analysis project exploring 100k+ orders from the Brazilian e-
 ### Core Technologies
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![DBeaver](https://img.shields.io/badge/DBeaver-382923?style=for-the-badge&logo=dbeaver&logoColor=white)
+* **Engine**: PostgreSQL 15
+* **Interface**: DBeaver
+* **Analytical Techniques**:
+    * **Advanced SQL**: Window Functions, complex `JOIN` operations, and `CTEs` for performance metric calculations.
+    * **Data Engineering**: Schema normalization and data integrity management.
+    * **Data Cleaning**: Precise attribute manipulation using `REPLACE`, `EXTRACT`, and `CASE` logic to transform raw logs into structured insights.
 
-### Analytical Toolkit
-* **Database Management**: Schema definition, data normalization, and integrity management within PostgreSQL.
-* **Advanced SQL**: Utilizing `CTEs` (Common Table Expressions), complex `JOIN` operations, and conditional `CASE` statements for logistics metric calculation.
-* **Data Transformation**: Converting raw timestamps and multi-table relationships into actionable performance metrics.
-* **Root Cause Analysis**: Identifying geographic and systemic delivery bottlenecks through granular data filtering.
+---
+*The project operates on a relational model in PostgreSQL, ensuring optimized execution of complex joins across the 100k+ record dataset.*
 
 ---
 
@@ -78,14 +81,6 @@ To validate the strategic insights above, the following metrics were extracted a
 *Insight: The 2017 monthly revenue trend corroborates high Black Friday elasticity, confirming the strategic revenue peak mentioned in the audit.*
 
 ---
-
-
-## 🛠️ Stack & Methodology
-* **Engine**: PostgreSQL 15
-* **Interface**: DBeaver
-* **Techniques**: Window Functions, Complex Case Logic, Data Cleaning (`REPLACE`, `EXTRACT`)
-
-
 
 
 
