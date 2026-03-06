@@ -1,9 +1,15 @@
 # 📊 Olist E-commerce Logistics & Revenue Audit
-**Executive Analysis by Pawel Szopa | Data Analyst & Logistics Operations Specialist**
-*Leveraging professional experience from Deutsche Post DHL and Boon Food Group to optimize e-commerce supply chains.*
 
-## 📋 Strategic Business Audit
-Analysis of 100k+ records from the Brazilian market (2016-2018), focusing on **Operational Excellence** and **Financial Scaling**.
+An end-to-end data analysis project exploring 100k+ orders from the Brazilian e-commerce market (2016-2018). The primary goal of this analysis was to identify logistics bottlenecks and optimize revenue streams using SQL-based data processing.
+
+## 🔍 Key Objectives
+* **Logistics Performance**: Calculating delivery time variations to identify underperforming regions.
+* **Revenue Scaling**: Segmenting customer and order data to pinpoint high-value areas for business growth.
+
+## 🛠 Tech Stack & Methodology
+* **Database**: PostgreSQL
+* **Tooling**: DBeaver
+* **Techniques**: CTEs, complex JOINs, data normalization, and delivery performance metrics.
 
 | Strategic KPI | Value | Professional Insight |
 | :--- | :--- | :--- |
@@ -73,6 +79,7 @@ To validate the strategic insights above, the following metrics were extracted a
 * **Engine**: PostgreSQL 15
 * **Interface**: DBeaver
 * **Techniques**: Window Functions, Complex Case Logic, Data Cleaning (`REPLACE`, `EXTRACT`)
+
 
 
 
